@@ -78,8 +78,8 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [duclairdeugoue](https://www.ducsoft.com)
+- Website - [ducsoft.com](https://www.ducsoft.com)
 - Frontend Mentor - [@duclairdeugoue](https://www.frontendmentor.io/profile/duclairdeugoue)
-- Twitter - [@duclair.deugoue](https://www.twitter.com/duclair.deugoue)
+- Twitter - [@duclairdeugoue](https://www.twitter.com/duclair.deugoue)
 
 ## Acknowledgments
