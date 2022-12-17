@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://github.com/duclairdeugoue/fmc-news-homepage)
+- Solution URL: [github.com](https://github.com/duclairdeugoue/fmc-news-homepage)
 - Live Site URL: [newsapp.ducsoft.com](https://newsapp.ducsoft.com)
 
 ## My process
