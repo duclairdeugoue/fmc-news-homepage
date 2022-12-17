@@ -1,0 +1,12 @@
+# assets - directory
+/assets/._*
+/assets/fonts/._*
+/assets/fonts/static/._*
+
+/assets/images/._*
+
+# design - directory
+/design/._*
+
+# root dictory
+._*
