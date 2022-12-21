@@ -32,15 +32,45 @@ li {
     padding: 2rem 1.25rem;
 }
 
-.header nav {
+
+.header nav.open {
     display: none;
+    position: fixed;
+    right: 0;
+    /* left: 0; */
+    top: 0;
+    bottom: 0;
+    width: 75vw;
+    padding: 1.25rem;
+    background-color: white;
+    z-index: 999999;
 }
 
-.header #menu-btn {
+.header nav ul {
+    position: absolute;
+    top: 20%;
+    transform: translateY(20%);
+}
+
+.header nav ul li {
+    padding: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+.header #menu-btn-open, .header #menu-btn-close {
     background: transparent;
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.header #menu-btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1.25rem;
+    z-index: 99999;
 }
 
 .showcase {
@@ -137,13 +167,45 @@ li {
     margin: 1rem 0;
 }
 
+.cards article h4:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
 @media (min-width: 1024px) {
     body {
         width: 1100px;
         margin: auto;
     }
 
-    .header #menu-btn {
+    .header nav.open {
+        display: block;
+        position: relative;
+        width: 100%;
+        background-color: transparent;
+        padding: 0;
+        z-index: auto;
+    }
+
+    .header nav ul {
+        position: relative;
+        top: 0;
+        transform: translateY(0%);
+        display: flex;
+        justify-content: end;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .header nav ul li:hover {
+        color: hsl(5, 85%, 63%);
+    }
+
+    .header nav ul li {
+        padding: 0;
+    }
+
+    .header #menu-btn-open, .header #menu-btn-close {
         display: none;
     }
 
