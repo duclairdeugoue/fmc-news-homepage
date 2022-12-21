@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github.com](https://github.com/duclairdeugoue/fmc-news-homepage)
-- Live Site URL: [newsapp.ducsoft.com](https://newsapp.ducsoft.com)
+- Live Site URL: [newsapp.ducsoft.com](https://duclairdeugoue.github.io/fmc-news-homepage/)
 
 ## My process
 
