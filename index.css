@@ -1,5 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
-*{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
+html {
+    font-size: 15px;
+}
+
+p {
+    line-height: 1.8;
+    color: hsl(236, 13%, 42%);
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+.header nav {
+    display: none;
+}
+
+.showcase {
+    padding: 1.25rem;
+    padding-top: 0;
+}
+
+.showcase h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color:  hsl(240, 100%, 5%);
+    margin: 1rem 0;
+}
+
+/*   */
+
+.showcase > div:first-child article button {
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+    padding: .85rem 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 660;
+    transition: all 0.3s ease-in-out;
+}
+
+.showcase > div:first-child article button:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.showcase > div:last-child {
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.25rem 1.25rem 0;
+    margin-top: 2rem;
+
+}
+
+.showcase > div:last-child h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+.showcase > div:last-child article {
+    padding: 1.25rem 0;
+}
+
+.showcase > div:last-child article:not(:last-child) {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+
+.showcase > div:last-child h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.showcase > div:last-child h3:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer ;
+}
+
+.cards {
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+}
+
+.cards article {
+    display: flex;
+    gap: 1.25rem;
+    /* padding: 1rem 0; */
+}
+
+.cards article img {
+    width: 110px;
+}
+
+.cards article span {
+    color: hsl(236, 13%, 42%);
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.cards article h4 {
+    font-size: 1.25rem;
+    color: hsl(240, 100%, 5%);
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
