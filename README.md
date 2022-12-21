@@ -11,10 +11,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -47,37 +44,30 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<picture>
+  <source media="(min-width: 768px)" srcset="./assets/images/image-web-3-desktop.jpg" sizes="">
+  <img src="./assets/images/image-web-3-mobile.jpg" alt="">
+</picture>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.header nav.open {
+  display: none;
+  position: fixed;
+  right: 0;
+  /* left: 0; */
+  top: 0;
+  bottom: 0;
+  width: 75vw;
+  padding: 1.25rem;
+  background-color: white;
+  z-index: 999999;
 }
 ```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-### Continued development
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Website - [ducsoft.com](https://www.ducsoft.com)
 - Frontend Mentor - [@duclairdeugoue](https://www.frontendmentor.io/profile/duclairdeugoue)
 - Twitter - [@duclairdeugoue](https://www.twitter.com/duclair.deugoue)
-
-## Acknowledgments
