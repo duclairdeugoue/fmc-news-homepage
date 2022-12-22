@@ -56,6 +56,7 @@ li {
 }
 
 .header nav ul {
+    display: none;
     position: absolute;
     top: 20%;
     transform: translateY(20%);
@@ -79,16 +80,13 @@ li {
 }
 
 .header #menu-btn-open {
-    /* display: none; */
     padding: 1.25rem;
 
 }
 .header #menu-btn-close {
-    /* display: none; */
     position: absolute;
     right: 1.25rem;
     padding: 1.25rem;
-    /* z-index: 99999; */
 }
 
 .showcase {
@@ -206,6 +204,7 @@ li {
     }
 
     .header nav ul {
+        display: block;
         position: relative;
         top: 0;
         transform: translateY(0%);
