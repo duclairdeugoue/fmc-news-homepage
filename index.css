@@ -33,23 +33,35 @@ li {
 }
 
 
-.header nav.open {
-    display: none;
+.header nav.open{
     position: fixed;
     right: 0;
-    /* left: 0; */
     top: 0;
     bottom: 0;
     width: 75vw;
     padding: 1.25rem;
     background-color: white;
     z-index: 999999;
+    transition: all 0.3s ease-in-out;
+}
+
+.header nav.close{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0vw;
+    padding: 0rem;
+    background-color: white;
+    z-index: -999999;
+    transition: all 0.3s ease-in-out;
 }
 
 .header nav ul {
     position: absolute;
     top: 20%;
     transform: translateY(20%);
+    
 }
 
 .header nav ul li {
@@ -64,13 +76,21 @@ li {
     border: none;
     outline: none;
     cursor: pointer;
+    right: 0;
+    z-index: 99999;
 }
 
-.header #menu-btn-close {
-    position: absolute;
-    right: 0;
+.header #menu-btn-open {
+    /* display: none; */
     padding: 1.25rem;
-    z-index: 99999;
+
+}
+.header #menu-btn-close {
+    /* display: none; */
+    position: absolute;
+    right: 1.25rem;
+    padding: 1.25rem;
+    /* z-index: 99999; */
 }
 
 .showcase {
@@ -178,7 +198,7 @@ li {
         margin: auto;
     }
 
-    .header nav.open {
+    .header nav {
         display: block;
         position: relative;
         width: 100%;
