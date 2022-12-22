@@ -8,12 +8,10 @@ navBar.classList.remove("open");
 navBar.classList.remove("close");
 
 if (!navBar.classList.contains("open")) {
-    console.log(" close btn is not shown ------------- ");
     btnMenuClose.style.display = "none";
 }
 
 btnMenuOpen.addEventListener("click", () => {
-    console.log("class name is added ++++++++++++");
     navBar.classList.remove("close");
     navItems.style.display = "block";
     navBar.classList.add("open");
@@ -24,7 +22,6 @@ btnMenuOpen.addEventListener("click", () => {
 
 btnMenuClose.addEventListener("click", () => {
     if (navBar.classList.contains("open")) {
-        console.log("class name is removed ------------- ");
         navBar.classList.remove("open");
         navItems.style.display = "none";
         navBar.classList.add("close");
